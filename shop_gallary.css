@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  align-items: center;
+  margin: 0px;
+}
+
+body {
+  max-width: 100%;
+  background-color: #f1f1f1;
+  padding: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: Arial;
+}
+
+/* create web page header */
+
+
+/* logo */
+.circle{
+background: white;
+display: inline-block;
+text-align: center;
+font-size: 25px;
+border: 5px solid teal;
+border-radius: 50%;
+width: 100px;
+height: 100px;
+box-shadow: 16px 13px 10px gray;
+}
+
+/* content navbar */
+.content-nav{
+background: teal;
+text-align: right;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+}
+.content-nav ul li{
+display: inline-block;
+padding: 16px 16px;
+}
+.content-nav ul li a{
+text-decoration: none;
+color: whitesmoke;
+
+}
+
+/* Cente!r website */
+.main {
+  max-width: 50%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+  display: table;
+
+}
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 16px 16px;
+}
+
+/* Add padding BETWEEN each column */
+.row .column {
+  padding:  16px 8px;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  margin-bottom: 0px;
+  text-align: center;
+  border-radius: 8px;
+  
+}
+
+.content button{
+width: 100%;
+background-color: teal ;
+color: whitesmoke;
+font-size: 15px;
+}
+
+/* Style the footer */
+footer {
+  overflow: hidden;
+  background-color: #0997;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
