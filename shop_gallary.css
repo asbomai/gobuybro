@@ -51,27 +51,15 @@ color: whitesmoke;
 /* Cente!r website */
 .main {
   max-width: 50%;
-  margin: auto;
   justify-content: space-between;
 }
 
 .row {
-  margin: 0;
-  padding: 0;
-  display: table;
+  margin: 16px 16px;
+  padding: 16px 16px;
 
 }
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 8px 8px;
-}
 
-/* Add padng BETWEEN each column */
-.row .column {
-  padding:  8px 8px;
-
-}
 
 /* Content */
 .content {
