@@ -40,7 +40,7 @@ border-bottom-right-radius: 15px;
 }
 .content-nav ul li{
 display: inline-block;
-padding: 15px 15px;
+padding: 8px 8px;
 }
 .content-nav ul li a{
 text-decoration: none;
@@ -64,12 +64,13 @@ color: whitesmoke;
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
-  width: 16px 16px;
+  width: 8px 8px;
 }
 
-/* Add padding BETWEEN each column */
+/* Add padng BETWEEN each column */
 .row .column {
-  padding:  16px 16px;
+  padding:  8px 8px;
+
 }
 
 /* Content */
