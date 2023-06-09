@@ -53,6 +53,7 @@ color: whitesmoke;
 
 /* Cente!r website */
 .main {
+  padding: 16px 16px;
   max-width: 50%;
   justify-content: space-between;
 }
