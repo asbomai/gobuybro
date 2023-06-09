@@ -18,6 +18,7 @@ body {
 
 /* logo */
 .circle{
+overflow: hidden;
 background: white;
 display: inline-block;
 text-align: center;
@@ -33,6 +34,7 @@ box-shadow: 16px 13px 10px gray;
 
 /* content navbar */
 .content-nav{
+overflow: hidden;
 background: teal;
 text-align: right;
 border-bottom-left-radius: 15px;
