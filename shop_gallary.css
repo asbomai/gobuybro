@@ -1,15 +1,10 @@
 * {
   box-sizing: border-box;
-  align-items: center;
-  margin: 0px;
 }
 
 body {
-  max-width: 100%;
   background-color: #f1f1f1;
-  padding: 20px;
   padding-top: 0px;
-  padding-bottom: 0px;
   font-family: Arial;
 }
 
@@ -22,21 +17,20 @@ overflow: hidden;
 background: white;
 display: inline-block;
 text-align: center;
-font-size: 16px;
-padding-top: 25px;
-padding:  16px 16px;
+font-size: 15px;
+padding:  0px 6px;
 border: 5px solid teal;
 border-radius: 50%;
 width: 100px;
 height: 100px;
 box-shadow: 16px 13px 10px gray;
+
 }
 
 /* content navbar */
 .content-nav{
 overflow: hidden;
 background: teal;
-text-align: right;
 border-bottom-left-radius: 15px;
 border-bottom-right-radius: 15px;
 }
@@ -53,30 +47,32 @@ color: whitesmoke;
 
 /* Cente!r website */
 .main {
-  padding: 16px 16px;
-  max-width: 50%;
+  max-width: 100%;
   justify-content: space-between;
 }
 
-.row {
-  margin: 16px;
-  padding: 18px 16px;
+.row{
+  padding: 10px 15px;
+}
+
+.column img {
+
+margin-top: 12px;
 
 }
 
 
 /* Content */
-.content {
-  background-color: white;
-  margin-bottom: 0px;
-  text-align: center;
-  border-radius: 8px;
-  
+.column {
+  width: 50%;
+  padding: 5px 25px;
+  float: left;
+  background-color: white; 
 }
 
-.content button{
+.content botton{
 width: 100%;
-background-color: teal ;
+background: teal;
 color: whitesmoke;
 font-size: 15px;
 }
